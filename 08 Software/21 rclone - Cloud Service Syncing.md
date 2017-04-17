@@ -29,7 +29,7 @@ Installation
 First download [rclone](http://rclone.org/downloads/):  
   
 
-    wget http://downloads.rclone.org/rclone-current-linux-amd64.zip -O ./bin/rclone.zip
+    mkdir -p ~/bin; cd; wget http://downloads.rclone.org/rclone-current-linux-amd64.zip -O ./bin/rclone.zip
 
   
   
@@ -43,14 +43,14 @@ Unzip rclone
 Now move the rclone file  
   
 
-    mv ./rclone-v1.29-linux-amd64/rclone ./bin/
+    mv ./rclone-*-linux-amd64/rclone ./bin/
 
   
   
 Delete the old files  
   
 
-    rm -rf ./rclone-v1.29-linux-amd64/
+    rm -rf ./rclone-*-linux-amd64/
 
   
 
