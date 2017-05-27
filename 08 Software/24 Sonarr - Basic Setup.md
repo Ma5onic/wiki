@@ -63,13 +63,7 @@ This will now be the URL you need to connect until you activate the proxypass.
 Start Sonarr  
   
 
-    screen -dmS sonarr ~/bin/mono --debug ~/NzbDrone/NzbDrone.exe
-
-  
-Start Sonarr with a temp path set within the users directory, allows for automatic updates + backup of database  
-  
-
-    screen -dmS sonarr /bin/bash -c 'export TMPDIR=~/tmp; ~/bin/mono --debug NzbDrone/NzbDrone.exe'
+    screen -dmS sonarr && screen -S sonarr -X stuff 'export TMPDIR=~/tmp; ~/bin/mono --debug ~/NzbDrone/NzbDrone.exe'$(echo -ne '\015')
 
   
 Attach to this screen at any time by using this command:  
@@ -208,7 +202,7 @@ If it won't go down then use this:
 Then restart like this:  
   
 
-    screen -dmS sonarr mono --debug ~/NzbDrone/NzbDrone.exe
+    screen -dmS sonarr && screen -S sonarr -X stuff 'export TMPDIR=~/tmp; ~/bin/mono --debug ~/NzbDrone/NzbDrone.exe'$(echo -ne '\015')
 
   
 Attach to this screen at any time by using this command:  
