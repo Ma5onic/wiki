@@ -16,14 +16,11 @@ Please run this command in SSH first:
 1: Build WeeChat and install it
 -------------------------------
 
-  
-Please use this script.  
-  
-**Important note:** If you get errors about missing dependencies please see the dependencies section at the end of this FAQ.  
-  
+Previous versions suggested you run an installer script to compile a local version. All slot servers now have Weechat installd by default so this step can be skipped.
 
-    wget -qO ~/install.weechat http://git.io/vffAV && bash ~/install.weechat
+To uninstall previous please run:
 
+    rm ~/bin/weechat
   
 
 2: Start WeeChat
