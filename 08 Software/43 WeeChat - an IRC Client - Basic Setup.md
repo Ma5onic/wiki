@@ -18,7 +18,7 @@ Please run this command in SSH first:
 
 Previous versions suggested you run an installer script to compile a local version. All slot servers now have Weechat installd by default so this step can be skipped.
 
-To uninstall previous please run:
+To uninstall previous versions please run:
 
     rm ~/bin/weechat
   
@@ -109,26 +109,3 @@ Here you can get information on further configuration, such as auto join and mor
 [WeeChat Quick Start Guide](http://www.weechat.org/files/doc/stable/weechat_quickstart.en.html)  
   
 [WeeChat Quick Start Guide](http://www.weechat.org/files/doc/stable/weechat_user.en.html)  
-  
-  
-
-Dependencies:
--------------
-
-  
-<http://www.weechat.org/files/doc/stable/weechat_user.en.html#dependencies>  
-  
-You may need to ask for certain dependencies to be installed. If you experience this through the scripts failing to configure  weechat and exiting then please ask for that dependency using this format.  
-  
-
-    Please can you install some dependencies for Weechat
-
-    http://www.weechat.org/files/doc/stable/weechat_user.en.html#dependencies
-
-    apt-get install libgnutls28-dev libncursesw5-dev libgcrypt20-dev
-
-    Thank you.
-
-  
-  
-
